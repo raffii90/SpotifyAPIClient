@@ -1,0 +1,46 @@
+﻿@model IEnumerable<CloudNineAssignment.Models.ViewModels.TrackViewModel>
+<h2>Tracks Catalog</h2>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Name
+            </th>
+            <th>
+                Album Name
+            </th>
+            <th>
+                Artists
+            </th>
+            <th>
+                Duration
+            </th>
+            <th>
+                Popularity
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.AlbumName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Artists)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Duration)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Popularity)
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
