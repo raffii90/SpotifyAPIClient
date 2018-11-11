@@ -1,7 +1,7 @@
 
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "src", "SpotifyAPIClient\src.csproj", "{EDDBADDC-DE3B-46C0-8873-ED3EF691D052}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web", "SpotifyAPIClient\Web.csproj", "{EDDBADDC-DE3B-46C0-8873-ED3EF691D052}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
